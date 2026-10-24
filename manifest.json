@@ -1,0 +1,21 @@
+{
+  "name": "Liczniki — prąd i woda",
+  "short_name": "Liczniki",
+  "description": "Odczyty licznika energii i wodomierza ze statystykami zużycia",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eceff2",
+  "theme_color": "#eceff2",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dodaj odczyt prądu", "short_name": "Odczyt prądu", "url": "./?add=prad", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dodaj odczyt wody", "short_name": "Odczyt wody", "url": "./?add=woda", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
